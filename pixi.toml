@@ -16,8 +16,9 @@ pytorch = "*"
 torchaudio = "*"
 torchvision = "*"
 libjpeg-turbo = { channel = "conda-forge" }
-opencv="*"
-# python = "3.10.*"
+ffmpeg = { channel = "conda-forge" }
+opencv = "*"
+python = "3.10.*"
 hydra-core = "*"
 lightning = "*"
 einops = "*"
